@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav>
+        <div class="logo">Guan Li</div>
+        <div class="flex row">
+            <div class="flex">
+                <a class="blink" id="home" href="#">Home</a>
+                <a class="blink" id="about" href="#">About</a>
+                <a class="blink" id="experience" href="#">Experience</a>
+                <a class="blink" id="contact" href="#">Contact</a>
+            </div>
+            <img class="sound-control" id = "sound" src="images/sound-off.png" alt="volume icon">
+            <div class="flex col centre">
+                <!-- this was originally a plane -->
+                <img class="blink-long plane" src="images/globe.png" alt="plane icon">
+                <img class="flag" id="flag" src="images/e-flag.png" alt="flag icon">
+            </div>
+        </div>  
+    </nav> 
+
+    <!-- Body Layout -->
+    <section class="main flex col centre">
+        <div>
+            <h1 id="page-title" class="blink">Who ?</h1>
+            <p id="page-top" class="blink"><br>Human Male.  Age 19.</p>
+        </div>
+
+        <div class="img-container">
+            <img id="character" class="blink" src="images/english.png" alt="character drawing">
+        </div>
+
+        <div>
+            <p id="page-bot" class="blink">Enjoys taking long walks on the beach.</p>
+        </div>
+
+        <div id="social-icon" class="flex row social-icon hidden">
+            <a href="https://discord.com/users/312859347724009474" target="_blank">
+                <i class="socials fab fa-discord fa-sync fa-spin"></i>
+            </a>
+            <a href="https://instagram.com/kyuqi.05" target="_blank">
+                <i class="socials fab fa-instagram fa-sync fa-spin"></i>
+            </a>
+            <a href="https://github.com/GuanLi-05" target="_blank">
+                <i class="socials fab fa-github fa-sync fa-spin"></i>
+            </a>
+            <a href="mailto:kyuqi.05@gmail.com">
+                <i class="socials fas fa-envelope fa-sync fa-spin"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- <img class="cloud blink" src="images/cloud1.png" alt="cloud"> -->
+
+
+    <!-- Additional -->
+    <audio id="bossanova" loop muted>
+        <source src="sounds/bussynova.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="button-sound">
+        <source src="sounds/button.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="car-sound">
+        <source src="sounds/honk.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="plane-sound">
+        <source src="sounds/plane.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="train-sound">
+        <source src="sounds/train.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="bike-sound">
+        <source src="sounds/bike.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
