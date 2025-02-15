@@ -164,7 +164,7 @@ nav a:hover {
 
 
 .blink {
-    animation: blink 1s infinite;
+    animation: blink 1.3s infinite;
     animation-play-state: paused;
 }
 
